@@ -1,0 +1,74 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:800italic);
+body {
+    font-family: "Courier New", Courier, monospace;
+    background: url("../images/tienda_musica.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h3, h4, p {
+    float: left;
+    clear: left; 
+    width: 320px;
+    text-align: center;
+    color:white;
+}
+h1 {
+    color:#fc9637;
+    margin: 50px 0 0 50px;
+    height: 75px;
+}
+h3 {
+    margin: 0 0 0 50px;
+    padding: 25px 0 0 0;
+    font-family: 'Open Sans', arial, sans-serif;
+    font-size: 1.8em;
+    font-style: italic;
+    font-weight: 800;
+    line-height: 0.80em;
+    color: #444885;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    border-left: 1px solid #bcbdc0;
+    border-right: 1px solid#bcbdc0;
+}
+
+html {
+    height:100%;
+    min-height:100%;
+}
+body{
+    min-height:100%;
+    width: 15%;
+}
+
+.message {
+    display:flex;
+    font-weight: bold;
+    line-height: 1.5em;
+    height: 2em;
+    display: block;
+    clear: left;
+    min-width: 10em;
+    color:white;
+}
+.true, .false {
+    background: url("../images/tick-cross.png");
+    display: block;
+    float:right;
+    height: 25px;
+    width: 25px;
+}
+.false {
+    background-position: 0 -25px;
+}
+
+p{
+    border: 1px solid white;
+    text-align: center;
+    background-color: black;
+}
